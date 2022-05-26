@@ -3,6 +3,14 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+Working Screenshots :
+![Screenshot from 2022-05-26 18-11-17](https://user-images.githubusercontent.com/105714129/170491073-43c40463-0831-44f1-ad10-ba9c85e74677.png)
+
+![Screenshot from 2022-05-26 18-15-31](https://user-images.githubusercontent.com/105714129/170491145-75777c91-5f7b-4292-87ba-798b021d6d7e.png)
+
+![Screenshot from 2022-05-26 18-15-38](https://user-images.githubusercontent.com/105714129/170491210-b44f20f4-819c-40d5-ab2d-0511b126d16f.png)
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
