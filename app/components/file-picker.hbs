@@ -1,0 +1,30 @@
+<div class='picker-container'>
+  <div class='size-container'>
+    <div>Max Size :</div>
+    <button
+      class='size-button'
+      type='button'
+      {{on 'click' this.decrementSize}}
+    >-</button>
+    <div>{{this.maxSize}} MB</div>
+    <button
+      class='size-button'
+      type='button'
+      {{on 'click' this.incrementSize}}
+    >+</button>
+  </div>
+  <Button @buttonText='Upload a File' />
+  <input
+    id='input-id'
+    type='file'
+    class='hidden'
+    {{did-insert this.addFileEventListener}}
+    {{on 'change' this.addFile}}
+  />
+  {{#if this.fileName}}
+    <Message @fileName={{this.fileName}} />
+  {{/if}}
+  {{#if this.errorMessage}}
+    <Error @errorMessage={{this.errorMessage}}/>
+  {{/if}}
+</div>

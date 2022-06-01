@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+/**
+ * Base Elements
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica,
+    Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-container {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 80%;
+  height: 20%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.size-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.picker-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 80%;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  border: 2px dotted black;
+  border-radius: 10px;
+}
+
+.file-button {
+  margin: 20px;
+  border-color: black;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+}
+
+.file-button:hover {
+  color: black;
+  border-color: black;
+  background-color: white;
+}
+
+.message-container{
+    font-size: small;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.error-container{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: small;
+    color: red;
+    background-color: #FFD2D2;
+}
